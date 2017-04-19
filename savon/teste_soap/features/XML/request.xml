@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:CalcPrecoPrazo>
+         <!--Optional:-->
+         <tem:nCdEmpresa>045684</tem:nCdEmpresa>
+         <!--Optional:-->
+         <tem:sDsSenha>45685427</tem:sDsSenha>
+         <!--Optional:-->
+         <tem:nCdServico>40010</tem:nCdServico>
+         <!--Optional:-->
+         <tem:sCepOrigem>01311200</tem:sCepOrigem>
+         <!--Optional:-->
+         <tem:sCepDestino>01528000</tem:sCepDestino>
+         <!--Optional:-->
+         <tem:nVlPeso>20</tem:nVlPeso>
+         <tem:nCdFormato>1</tem:nCdFormato>
+         <tem:nVlComprimento>16</tem:nVlComprimento>
+         <tem:nVlAltura>2</tem:nVlAltura>
+         <tem:nVlLargura>11</tem:nVlLargura>
+         <tem:nVlDiametro>16</tem:nVlDiametro>
+         <!--Optional:-->
+         <tem:sCdMaoPropria>s</tem:sCdMaoPropria>
+         <tem:nVlValorDeclarado>20</tem:nVlValorDeclarado>
+         <!--Optional:-->
+         <tem:sCdAvisoRecebimento>s</tem:sCdAvisoRecebimento>
+      </tem:CalcPrecoPrazo>
+   </soapenv:Body>
+</soapenv:Envelope>

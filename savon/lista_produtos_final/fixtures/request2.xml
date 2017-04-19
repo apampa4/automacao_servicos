@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v2="http://www.isban.es/webservices/BDPABR/Consultadatospersonae/F_bdpabr_consultadatospersona_e/intranet/BuscaDatosPersona/v2">
+   <soapenv:Header>
+      <wsse:Security S12:role="WSSecuritys" SOAP-ENV:actor="http://www.isban.es/soap/actor/wssecurityUserPass" SOAP-ENV:mustUnderstand="1" xmlns:S12="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+         <wsse:UsernameToken>
+            <wsse:Username>20001668</wsse:Username>
+            <wsse:Password>258369</wsse:Password>
+         </wsse:UsernameToken>
+      </wsse:Security>
+   </soapenv:Header>
+   <soapenv:Body>
+      <v2:consContratosCliente facade="BuscaDatosPersona">
+         <input>
+            <PECALPA_BKS></PECALPA_BKS>
+            <PECODP2_BKS></PECODP2_BKS>
+            <PECODS2_BKS></PECODS2_BKS>
+            <PEESTRE_BKS></PEESTRE_BKS>
+            <PENUMPE_BKS>
+               <TIPO_DE_PERSONA_BR>F</TIPO_DE_PERSONA_BR>
+               <NRO_DE_PERSONA_BR>00119978</NRO_DE_PERSONA_BR>
+            </PENUMPE_BKS>
+         </input>
+      </v2:consContratosCliente>
+   </soapenv:Body>
+</soapenv:Envelope>

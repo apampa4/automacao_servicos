@@ -1,0 +1,8 @@
+require 'savon'
+require 'rspec'
+require 'cucumber'
+require 'capybara/dsl'
+require 'rubygems'
+require 'pry'
+require 'rspec'
+require 'rspec/expectations'

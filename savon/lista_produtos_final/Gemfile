@@ -1,0 +1,13 @@
+source 'https://rubygems.org'
+
+gem 'to_xml'
+gem 'cucumber'
+gem 'capybara'
+gem 'rspec'
+gem 'rake'
+gem 'pry'
+gem 'savon' # , :git => "https://github.com/savonrb/savon.git", :branch => "version3"
+gem 'wasabi'
+gem 'action_controller-parents'
+gem 'xml-simple'
+gem 'nokogiri'

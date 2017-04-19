@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://www.isban.es/webservices/IBQZBR/Svalquiz_e/F_ibqzbr_svalquiz_e/ACIBQZBRSvalQuizE/v1">
+   <soapenv:Header>
+      <wsse:Security S12:role="WSSecuritys" SOAP-ENV:actor="http://www.isban.es/soap/actor/wssecurityUserPass" SOAP-ENV:mustUnderstand="1" xmlns:S12="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+         <wsse:UsernameToken>
+            <wsse:Username>20001668</wsse:Username>
+            <wsse:Password>258369</wsse:Password>
+         </wsse:UsernameToken>
+      </wsse:Security>
+   </soapenv:Header>
+   <soapenv:Body>
+      <v1:consultaPenumpe facade="ACIBQZBRSvalQuizE">
+         <entrada>
+            <!--Optional:-->
+            <CPF>$cpf_old</CPF>
+         </entrada>
+      </v1:consultaPenumpe>
+   </soapenv:Body>
+</soapenv:Envelope>
