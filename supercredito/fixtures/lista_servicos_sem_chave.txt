@@ -1,0 +1,4 @@
+wcc/v1/domain/card-brand/all
+wcc/v1/domain/telephone-type/all
+wcc/v1/domain/profile/all
+wcc/v1/domain/corrential-type/all

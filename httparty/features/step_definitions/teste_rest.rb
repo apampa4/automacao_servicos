@@ -17,8 +17,8 @@ class ServBanco
   def resposta
     $response = self.class.post("/wcc/v1/countries?gw-app-key=13fe5bc01e970134e1a7005056906329", 
       :headers => {"Content-Type" => "application/json"},
-      :body => {:page => page, :limit => limit }.to_json,
-      :verify => false)
+      :body => {:page => page, :limit => limit }.to_json) #,
+#      :verify => false)
   end
 end
 

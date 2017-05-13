@@ -1,0 +1,11 @@
+geographic-location/v1/countries?
+geographic-location/v1/address-types?
+personal-data-management/v1/marital-status?
+personal-data-management/v1/course-shifts?
+personal-data-management/v1/document-types?
+personal-data-management/v1/office-roles?
+personal-data-management/v1/profissions?
+geographic-location/v1/federated-units?
+personal-data-management/v1/education-levels?
+personal-data-management/v1/university-courses?
+geographic-location/v1/cities?
